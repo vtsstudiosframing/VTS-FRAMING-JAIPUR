@@ -3,156 +3,192 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>VTS FRAMING JAIPUR | Custom Photo Frames & Photo Studio</title>
-<meta name="description" content="VTS Framing Jaipur - Customized photo frames in all sizes, photo printing and photography services. Order on WhatsApp.">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#6c3df4">
+<title>VTS FRAMING JAIPUR | Photo Frames & Studio</title>
+<meta name="description" content="VTS Framing Jaipur - Customized photo frames, photo printing and studio services.">
 <style>
-*{box-sizing:border-box;margin:0;padding:0}
+*{box-sizing:border-box}
 html{scroll-behavior:smooth}
-body{font-family:Arial,sans-serif;color:#242424;background:#fff}
-header{background:#171717;color:white;padding:17px 6%;display:flex;justify-content:space-between;align-items:center;gap:15px;flex-wrap:wrap}
-.logo{font-size:23px;font-weight:900;color:#f3c66a}
-.logo small{display:block;color:white;font-size:11px;letter-spacing:3px;margin-top:5px}
-nav a{color:white;text-decoration:none;margin:0 8px;font-size:14px}
-.hero{background:linear-gradient(90deg,#171717ee,#17171755),url('https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?auto=format&fit=crop&w=1600&q=85') center/cover;color:white;padding:90px 7%;min-height:440px;display:flex;align-items:center}
-.hero-content{max-width:650px}
-.tag{color:#f3c66a;font-weight:bold;letter-spacing:3px;font-size:13px}
-h1{font-size:clamp(38px,6vw,68px);line-height:1.08;margin:18px 0}
-.hero p{font-size:18px;line-height:1.7;color:#eee}
-.btn{display:inline-block;padding:14px 22px;border-radius:5px;text-decoration:none;font-weight:bold;margin:22px 8px 0 0}
-.gold{background:#f3c66a;color:#171717}
-.green{background:#128c4a;color:white}
-section{padding:65px 7%}
-.heading{text-align:center;margin-bottom:35px}
-.heading h2{font-size:32px;margin-bottom:12px}
-.heading p{color:#666;line-height:1.6}
-.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}
-.card{border:1px solid #eee;border-radius:10px;overflow:hidden;background:white;box-shadow:0 5px 20px #0000000b}
-.card img{width:100%;height:240px;object-fit:cover;display:block}
-.card-content{padding:20px}
-.card h3{margin-bottom:10px;font-size:20px}
-.card p{color:#666;line-height:1.6;font-size:14px}
-.dark{background:#191919;color:white}
-.dark .heading p{color:#ccc}
-.sizes{display:flex;justify-content:center;flex-wrap:wrap;gap:12px;margin-top:25px}
-.sizes span{border:1px solid #d8b45d;padding:12px 17px;border-radius:6px;color:#f3c66a}
-.banner{text-align:center;background:#f8f4eb}
-.banner h2{font-size:30px;margin-bottom:12px}
-.banner p{line-height:1.8;color:#555}
-footer{background:#111;color:white;text-align:center;padding:30px 15px;line-height:2}
-footer a{color:#f3c66a}
-.float{position:fixed;right:18px;bottom:18px;background:#128c4a;color:white;text-decoration:none;padding:15px 18px;border-radius:40px;font-weight:bold;box-shadow:0 4px 15px #0003;z-index:5}
-@media(max-width:700px){
- header{justify-content:center;text-align:center}
- nav{line-height:2.2}
- .hero{padding:65px 6%;min-height:410px}
- .grid{grid-template-columns:1fr}
- .card img{height:260px}
- section{padding:48px 6%}
- .heading h2{font-size:27px}
-}
+body{margin:0;font-family:Arial,sans-serif;background:#fff9ff;color:#251b3b;line-height:1.6}
+a{text-decoration:none}
+.brand-header{background:linear-gradient(120deg,#6c3df4,#ff4f9a);color:white;padding:16px 5%}
+.brand-logo{display:flex;align-items:center;gap:14px;max-width:1100px;margin:auto}
+.logo-frame{width:66px;height:66px;border:4px solid white;outline:2px solid #ffd166;outline-offset:-9px;border-radius:8px;display:grid;place-items:center;font-size:22px;font-weight:900;flex-shrink:0}
+.brand-logo h2{margin:0;letter-spacing:1px}
+.brand-logo p{margin:3px 0 0;font-size:11px;letter-spacing:1.5px}
+nav{background:white;display:flex;justify-content:center;gap:22px;flex-wrap:wrap;padding:12px}
+nav a{color:#6c3df4;font-weight:bold;font-size:14px}
+.hero{text-align:center;padding:45px 18px;background:linear-gradient(135deg,#f0e7ff,#ffe8f2,#fff0bd)}
+.hero h1{font-size:clamp(30px,6vw,48px);line-height:1.15;margin:10px}
+.hero p{color:#625675}
+.btn{display:inline-block;padding:12px 18px;border-radius:12px;background:#16a765;color:white;font-weight:bold;border:0}
+.purple{background:#6c3df4}
+section{padding:38px 5%}
+h2{text-align:center}
+.intro{text-align:center;color:#71657f}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px;max-width:1100px;margin:25px auto}
+.card{background:white;border:1px solid #eadfff;border-radius:18px;padding:15px;text-align:center;box-shadow:0 7px 22px #35205d12}
+.card h3{margin:12px 0 5px}
+.card p{color:#746982;font-size:14px}
+.frame-photo{height:230px;background:linear-gradient(135deg,#f4d9eb,#d9d0ff);display:grid;place-items:center;border-radius:12px;overflow:hidden}
+.frame{width:145px;height:190px;padding:7px;background:#17151b;box-shadow:0 10px 20px #24133c55;transform:rotate(-2deg)}
+.frame img{width:100%;height:100%;object-fit:cover;border:2px solid #d9d9d9}
+.size{font-size:18px;color:#6c3df4;font-weight:bold;margin-top:5px}
+.card .btn{display:block;margin-top:12px}
+.custom{background:#f0eaff;text-align:center;border-radius:18px;padding:25px;max-width:1050px;margin:30px auto}
+.services{background:#fff0f7}
+.gallery-tile{padding:28px 12px;border-radius:13px;background:linear-gradient(135deg,#ffd1e6,#d9d0ff);font-size:20px;font-weight:bold;color:#39245b}
+.contact{text-align:center;line-height:2.2}
+footer{background:#25153f;color:white;text-align:center;padding:25px}
+footer p{margin:4px}
+footer a{color:#ffe18a}
+.float-wa{position:fixed;bottom:16px;right:14px;background:#16a765;color:white;border-radius:30px;padding:12px 16px;font-weight:bold;box-shadow:0 5px 20px #0003;z-index:5}
 </style>
 </head>
 <body>
 
-<header>
-  <div class="logo">VTS FRAMING JAIPUR
-    <small>FRAMES • PRINTS • STUDIO</small>
+<header class="brand-header">
+  <div class="brand-logo">
+    <div class="logo-frame">VTS</div>
+    <div>
+      <h2>VTS FRAMING</h2>
+      <p>JAIPUR • PHOTO FRAMES & STUDIO</p>
+    </div>
   </div>
-  <nav>
-    <a href="#home">Home</a>
-    <a href="#frames">Photo Frames</a>
-    <a href="#studio">Studio Services</a>
-    <a href="#contact">Contact</a>
-  </nav>
 </header>
 
-<div class="hero" id="home">
-  <div class="hero-content">
-    <div class="tag">YOUR MEMORIES, BEAUTIFULLY FRAMED</div>
-    <h1>Make Every Memory<br>Last Forever.</h1>
-    <p>Customized Photo Frames in All Sizes</p>
-    <p>Beautiful frames for your home, family, wedding and special moments.</p>
-    <a class="btn gold" href="#frames">EXPLORE OUR FRAMES</a>
-    <a class="btn green" href="https://wa.me/919610542830?text=Hello%20VTS%20Framing%20Jaipur%2C%20I%20want%20a%20custom%20photo%20frame.">ORDER ON WHATSAPP</a>
-  </div>
+<nav>
+  <a href="#frames">Photo Frames</a>
+  <a href="#studio">Studio Services</a>
+  <a href="#gallery">Gallery</a>
+  <a href="#reviews">Reviews</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<div class="hero">
+  <p>✨ YOUR MEMORIES, BEAUTIFULLY FRAMED ✨</p>
+  <h1>Choose Your Perfect<br>Photo Frame</h1>
+  <p>Customized photo frames in different sizes.<br>Choose a size and ask for the price directly on WhatsApp.</p>
+  <a class="btn" href="#frames">Explore Frame Sizes ↓</a>
 </div>
 
 <section id="frames">
-  <div class="heading">
-    <h2>Our Photo Frames</h2>
-    <p>Customized designs made for your precious memories.</p>
+  <h2>Our 1/2 Inch Black Photo Frames</h2>
+  <p class="intro">Size select karein — WhatsApp par inquiry bhejein.</p>
+  <div class="grid" id="frameGrid"></div>
+  <div class="custom">
+    <h3>Apna size list mein nahi mila?</h3>
+    <p>Custom size mein bhi photo frame banwane ke liye poochhein.</p>
+    <a class="btn purple" target="_blank" rel="noopener"
+       href="https://wa.me/919610542830?text=Hello%20VTS%20Framing%20Jaipur%2C%20mujhe%20custom%20size%201%2F2%20inch%20black%20photo%20frame%20banwana%20hai.%20Please%20price%20batayein.">
+       Custom Size Inquiry ↗
+    </a>
   </div>
+</section>
+
+<section class="services" id="studio">
+  <h2>Photo Studio Services</h2>
+  <p class="intro">Photo printing aur special occasion services ke liye contact karein.</p>
   <div class="grid">
     <div class="card">
-      <img src="https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?auto=format&fit=crop&w=800&q=80" alt="Decorative framed artwork">
-      <div class="card-content">
-        <h3>Customized Photo Frames</h3>
-        <p>Personalized frames for family photos, couples, birthdays and anniversaries.</p>
-      </div>
+      <div class="gallery-tile">📸 Photo Printing</div>
+      <h3>Photo & Passport Prints</h3>
+      <p>Passport-size photos aur photo printing ke liye inquiry karein.</p>
+      <a class="btn" target="_blank" rel="noopener" href="https://wa.me/919610542830?text=Hello%2C%20mujhe%20photo%20printing%20aur%20passport%20photo%20ki%20details%20chahiye.">WhatsApp Inquiry</a>
     </div>
     <div class="card">
-      <img src="https://images.unsplash.com/photo-1577083552431-6e5fd01aa342?auto=format&fit=crop&w=800&q=80" alt="Art and wall decor inspiration">
-      <div class="card-content">
-        <h3>Art & Wall Decor</h3>
-        <p>Beautiful wall art and framed prints to enhance your home and office.</p>
-      </div>
+      <div class="gallery-tile">🎥 Photography</div>
+      <h3>Photography & Videography</h3>
+      <p>Wedding, birthday, party aur special occasions.</p>
+      <a class="btn" target="_blank" rel="noopener" href="https://wa.me/919610542830?text=Hello%2C%20mujhe%20photography%20aur%20videography%20services%20ki%20details%20chahiye.">WhatsApp Inquiry</a>
     </div>
     <div class="card">
-      <img src="https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=800&q=80" alt="Creative artwork and painting">
-      <div class="card-content">
-        <h3>Photo Prints & Gifts</h3>
-        <p>Turn your favourite pictures into memorable gifts for your loved ones.</p>
-      </div>
-    </div>
-  </div>
-  <div class="heading" style="margin-top:40px;margin-bottom:0">
-    <h2>Available Sizes</h2>
-    <p>Need a different size? Ask us about customization.</p>
-    <div class="sizes">
-      <span>4 × 6 inch</span><span>A4 Size</span><span>12 × 18 inch</span>
-      <span>18 × 24 inch</span><span>24 × 36 inch</span><span>Custom Size</span>
+      <div class="gallery-tile">🎁 Custom Gifts</div>
+      <h3>Personalised Gift Frames</h3>
+      <p>Couple, family, birthday aur anniversary frames.</p>
+      <a class="btn" target="_blank" rel="noopener" href="https://wa.me/919610542830?text=Hello%2C%20mujhe%20personalised%20gift%20photo%20frame%20banwana%20hai.">WhatsApp Inquiry</a>
     </div>
   </div>
 </section>
 
-<section class="dark" id="studio">
-  <div class="heading">
-    <h2>Photo Studio Services</h2>
-    <p>Photography and printing services for your special moments.</p>
-  </div>
+<section id="gallery">
+  <h2>Photo Frame Gallery</h2>
+  <p class="intro">Yahan apne asli product photos add kar sakte hain.</p>
   <div class="grid">
-    <div class="card">
-      <img src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=800&q=80" alt="Camera for photography">
-      <div class="card-content"><h3>Photography & Videography</h3><p>Capture weddings, birthdays, parties and family celebrations.</p></div>
-    </div>
-    <div class="card">
-      <img src="https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=800&q=80" alt="Creative studio work">
-      <div class="card-content"><h3>Photo Printing</h3><p>Print your favourite photographs and prepare them for framing.</p></div>
-    </div>
-    <div class="card">
-      <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=800&q=80" alt="Portrait photography">
-      <div class="card-content"><h3>Passport Size Photos</h3><p>Contact us for passport-size photographs and other photo services.</p></div>
-    </div>
+    <div class="card"><div class="gallery-tile">💑 Couple Frames</div><p>Couple & Anniversary</p></div>
+    <div class="card"><div class="gallery-tile">🎂 Birthday Frames</div><p>Birthday Gifts</p></div>
+    <div class="card"><div class="gallery-tile">👨‍👩‍👧 Family Frames</div><p>Family Memories</p></div>
+    <div class="card"><div class="gallery-tile">🖼️ Wall Frames</div><p>Large Wall Decor</p></div>
+    <div class="card"><div class="gallery-tile">❤️ Memorial Frames</div><p>Special Memories</p></div>
+    <div class="card"><div class="gallery-tile">✨ Custom Designs</div><p>Your Personal Design</p></div>
   </div>
 </section>
 
-<section class="banner" id="contact">
-  <h2>Let's Frame Your Memories!</h2>
-  <p>Have a photo ready? Send it to us on WhatsApp and tell us your required frame size.</p>
-  <p><strong>VTS FRAMING JAIPUR</strong></p>
-  <a class="btn green" href="https://wa.me/919610542830?text=Hello%20VTS%20Framing%20Jaipur%2C%20I%20want%20to%20place%20an%20order.">Chat With Us on WhatsApp</a>
+<section id="reviews" style="background:#f5efff">
+  <h2>Customer Reviews</h2>
+  <p class="intro">Customer feedback yahan add karein.</p>
+  <div class="grid">
+    <div class="card"><div style="color:#efa900">★★★★★</div><p>Apne customer ka asli review yahan likhein.</p></div>
+    <div class="card"><div style="color:#efa900">★★★★★</div><p>Customer ki permission se unka feedback add karein.</p></div>
+    <div class="card"><div style="color:#efa900">★★★★★</div><p>Yahan apne customers ke real experiences share karein.</p></div>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <h2>Contact VTS FRAMING JAIPUR</h2>
+  <p>📱 WhatsApp: <a href="https://wa.me/919610542830">9610542830</a></p>
+  <p>📞 Call: <a href="tel:+919782798026">9782798026</a></p>
+  <p>📍 Jaipur, Rajasthan</p>
+  <p><small>Exact shop address add karne par Google Maps ko aur accurate banaya ja sakta hai.</small></p>
+  <a class="btn purple" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=VTS+Framing+Jaipur">Open Google Maps ↗</a>
 </section>
 
 <footer>
-  <strong>VTS FRAMING JAIPUR</strong><br>
-  Customized Photo Frames | Photo Studio Services<br>
-  WhatsApp: +91 96105 42830<br>
-  <small>Jaipur, Rajasthan</small><br>
-  <small>© 2026 VTS FRAMING JAIPUR</small>
+  <strong>VTS FRAMING JAIPUR</strong>
+  <p>Frames • Photo Printing • Photo Studio</p>
+  <p>© <span id="year"></span> VTS Framing Jaipur</p>
 </footer>
 
-<a class="float" href="https://wa.me/919610542830?text=Hello%20VTS%20Framing%20Jaipur">WhatsApp Order</a>
+<a class="float-wa" target="_blank" rel="noopener" href="https://wa.me/919610542830?text=Hello%20VTS%20Framing%20Jaipur%2C%20mujhe%20details%20chahiye.">☘ WhatsApp</a>
+
+<script>
+const sizes = [
+  "5 × 5 inch",
+  "A4 (9 × 13 inch)",
+  "12 × 18 inch",
+  "14 × 20 inch",
+  "18 × 24 inch",
+  "20 × 26 inch",
+  "24 × 36 inch"
+];
+
+/* Sample image only. Replace this URL with your own frame photo when available. */
+const samplePhoto = "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?auto=format&fit=crop&w=500&q=85";
+const grid = document.getElementById("frameGrid");
+
+sizes.forEach(size => {
+  const message = `Hello VTS Framing Jaipur, mujhe ${size} ka 1/2 inch black customized photo frame chahiye. Please price aur details batayein.`;
+  const card = document.createElement("article");
+  card.className = "card";
+  card.innerHTML = `
+    <div class="frame-photo">
+      <div class="frame">
+        <img src="${samplePhoto}" alt="Sample photo in black frame" loading="lazy">
+      </div>
+    </div>
+    <h3>1/2 Inch Black Frame</h3>
+    <div class="size">${size}</div>
+    <p>Customized photo frame</p>
+    <a class="btn" target="_blank" rel="noopener"
+       href="https://wa.me/919610542830?text=${encodeURIComponent(message)}">
+       WhatsApp Inquiry ↗
+    </a>`;
+  grid.appendChild(card);
+});
+
+document.getElementById("year").textContent = new Date().getFullYear();
+</script>
 
 </body>
 </html>
